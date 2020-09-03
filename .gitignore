@@ -1,0 +1,5 @@
+### Pimcore Lando ###
+# gitignore template for Pimcore CMS
+
+web/
+sql/

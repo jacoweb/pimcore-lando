@@ -1,0 +1,16 @@
+name: tns
+recipe: lemp
+proxy:
+  appserver_nginx:
+    - tnsdev.local
+config:
+  php: '5.6'
+  via: nginx
+  webroot: web
+  database: mariadb
+  xdebug: true
+  config:
+    server: config/nginx.conf
+    vhosts: config/default.conf
+    param: config/fastcgi_params
+    php: config/php.ini
