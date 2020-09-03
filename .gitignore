@@ -1,5 +1,7 @@
 ### Pimcore Lando ###
 # gitignore template for Pimcore CMS
 
+.DS_Store
+
 web/
 sql/
